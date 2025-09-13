@@ -14,6 +14,7 @@ public class NumberDisplay
 {
     private int limit;
     private int value;
+    private NumberDisplay hours;
 
     /**
      * Constructor for objects of class NumberDisplay.
@@ -46,6 +47,8 @@ public class NumberDisplay
         else {
             return "" + value;
         }
+        
+        
     }
 
     /**
@@ -66,5 +69,9 @@ public class NumberDisplay
     public void increment()
     {
         value = (value + 1) % limit;
+        
+            
+        
+        
     }
 }
