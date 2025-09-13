@@ -43,7 +43,43 @@ PART II: clock-dispay project
 
 27. They both have this: hours = new NumberDisplay(24);
                          minutes = new NumberDisplay(60);
-However, the first constructor has updateDisplay(); because the default value is 00:00  meaning it has nothing to validate so it just updates the display. However, the other one has setTime(hour, minute); because since we are putting in the values of hours and minutes
+However, the first constructor has updateDisplay(); because the default value is 00:00  meaning it has nothing to validate so it just updates the display. However, the other one has setTime(hour, minute); because since we are putting in the values of hours and minutes, it has to validate what we put in there.
+
+28. public void print(String filename, boolean doubleSided)
+    - p1.print("README.txt", "true");
+    - p1.print("README.txt", "false");
+
+public int getStatus(int delay) 
+  - p1.getStatus(10);
+  - p1.getStatus(20);
+
+I am not sure about this question
+
+
+
+29. Circle, Square and Triangle
+
+30.roof.changeSize(60, 180);
+   roof.moveHorizontal(20);
+   roof.moveVertical(-60);
+   roof.makeVisible();
+
+31. NO
+
+32. 2
+
+33. When both or the first number is negativ the answer in negative but wwhen it is only the second number then it returns positive.
+
+34. The remainder will be between -4 and 4 where -4 and 4 are included. 
+
+35. All number negative or positive could be a possible result except for 0. I think.
+
+37. I think option 1 was easier and faster to do. However, I think option 2 was better because it says if it pm and does not just go from 1-12 on a loop without knowing the if it is pm or am.
+
+
+
+
+
 
 
 
